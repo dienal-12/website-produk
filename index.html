@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Dienal Muttaqin</title>
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--BOOTSTRAP ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  </head>
+  <body id="Home">
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top opacity-75 ">
+        <div class="container-fluid">
+            <img src="bootstrap/img/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"/>
+          <a class="navbar-brand" href="#">Donut<Sapn class="text-warning">SHOP</Sapn></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#Product">Product</a>
+              <a class="nav-link" href="#ABOUT">About</a>
+              <a class="nav-link" href="#Contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--NAVBAR END-->
+
+    <!--CRAUSEL START-->
+    <div id="carouselExampleIndicators" class="carousel slide mx-4 mb-3" style="padding-top: 5rem;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded shadow-sm">
+          <div class="carousel-item active">
+            <img src="bootstrap/img/Background.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="bootstrap/img/piece.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="bootstrap/img/Box.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev mt-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mt-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--CRAUSEL END-->
+
+    <!--JUMBOTRON START-->
+      <section id="jumbotron">
+       <div class="jumbotron shadow-sm my-4 mx-5 rounded outline-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold">Highligh PROMO Product Only For You :</p>
+                </div>
+              </div>
+            <div class="row p-4 justify-content-around">  
+                <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/diskon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Promo Box</h5>
+                      <p class="card-text">segera beli untuk keluarga mu supaya kebagian.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                      </div>
+                  </div>
+                <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/panah.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PROMO</h5>
+                      <p class="card-text">Sesuaikan dengan budget di kantong celana mu.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal"></a>
+                      </div>
+                  </div>
+                  <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/diskon 2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Promo piece</h5>
+                      <p class="card-text">segera beli untuk isi perut lebih kenyang</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold">Product BEST SELLER :</p>
+                </div>
+              </div>
+            <div class="row p-4 justify-content-around">  
+                <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/Matcha coklate.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Matcha coklate</h5>
+                      <p class="card-text">Adonan donat yang lembut dan dibaluri oleh saus Matcha dan cokelat yang membuat donat ini enak.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                      </div>
+                  </div>
+                <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/Coklate.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cokelat</h5>
+                      <p class="card-text">Adonan donat yang lembut dan dibaluri oleh saus cokelat yang membuat donat ini enak.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                      </div>
+                  </div>
+                  <div class="col-4 card" style="width: 18rem;">
+                    <img src="bootstrap/img/Strawbery.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Strawbery</h5>
+                      <p class="card-text">Adonan donat yang lembut dan dibaluri oleh saus strawbery yang membuat donat ini enak.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                  </div>
+            </div>
+       </div>
+    </section>
+    <hr>
+    <!--JUMBOTRON END-->
+    
+    <!--MODAL START-->
+    <div class="modal" tabindex="-1" id="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Harga product ini adalah : RP 5.000/pcs|RP 20.000/box
+              </p>
+              <p>promo buy 2 box 40.000 free 2 varian
+              </p>
+              <p> promo buy 5 piece 25.000 free 2 varian
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--MODAL END-->
+
+    <!--PRODUCT START-->
+    <section id="Product">
+    <div class="jumbotron shadow-sm my-4 mx-5 rounded outline-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <p class="display-6 fw-bold">Our Product :</p>
+              </div>
+          </div>
+                 <div class="row p-4 justify-content-around style="padding-top: 100rem;">  
+              <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/Coklate.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Coklate</h5>
+                    <p class="card-text">pecinta coklat wajib beli sih</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+              <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/Matcha coklate.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Matcha cokelate</h5>
+                    <p class="card-text">pecinta matcha+coklat wajib beli sih</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+                <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/Strawbery.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Strawbery</h5>
+                    <p class="card-text">pecinta strawbery wajib beli sih</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+                <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/donat isi.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Donat isi</h5>
+                    <p class="card-text">pecinta donat isi wajib beli sih.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+              <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/capucino.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Capucino coklat</h5>
+                    <p class="card-text">pecinta capucino wajib beli sih.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+                <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/taro caramel.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Taro caramel</h5>
+                    <p class="card-text">pecinta taro caramel wajib beli sih.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+                <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/cookies and cream.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cookies and cream</h5>
+                    <p class="card-text">pecinta cookies and cream wajib beli sih.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+              <div class="col-4 card my-3" style="width: 18rem;">
+                  <img src="bootstrap/img/susu.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Susu</h5>
+                    <p class="card-text">pecinta susu wajib beli sih.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">DETAIL</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!--PRODUCT END-->
+
+    <!--ABOUT START-->
+    <section id="ABOUT">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>ABOUT</h3><br>
+            <p>
+              <h2>Visi :</h2>
+              Menjadi perusahaan Donut terbesar di seluruh Indonesia dengan kualitas terbaik dan terpercaya.
+            </p>
+            <p>
+              <h2>Misi :</h2>
+              <p>• Menjadi perusahaan yang menghasilkan kualitas terbaik dan siap bersaing,</p>
+              <p>• Membuat produk yang selalu bervarisai secara berkala, supaya konsumen tidak bosan dan selalu datang untuk mencicipi varian baru yang disediakan.</p>
+              <p>• Perusahaan menggunakan bahan-bahan dasar dengan kualitas terbaik untuk donat terbaik.</p>
+              <p>• Selalu mengikuti perkembangan zaman untuk setiap usaha dan menyesuaikan dengan keinginan pasar.</p>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6"><h3>TIM KAMI</h3><br>Front end dev <br>Backend dev <br>UI UX</div>
+          <div class="col-6"><h3>Follow sosial media kita</h3><br><a href="https://www.instagram.com/m_dnlmtqin?igsh=MWJpeW14eW9ia3JxZg=="><i class="bi bi-instagram"></i></a><br><a href="https://youtube.com/@dendinchannel?si=LJYXCY49aIeRus8B"><i class="bi bi-youtube"></i></a><br><a href="https://wa.me/qr/NAXG42MUCQ4ZH1"><i class="bi bi-whatsapp"></i></a></div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!--ABOUT END-->
+   
+    <!--CONTACT START-->
+    <section id="contact">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-6"><div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jawa%20Barat+(My%20Business%20Name)&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps handsets</a></iframe></div></div>
+          <div class="col-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="exampleInputdienal" aria-describedby="dienal">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Subject</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Masukkan pesan anda</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--CONTACT END-->
+
+    <!--FOOTER START-->
+    <footer class="p-3 mt-5 bg-primary">
+      <p>&COPY;Muhammad Dienal Muttaqin</p>
+      <p class="text-end">Kebijakan & privasi</p>
+    </footer>
+    <!--FOOTER END-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
